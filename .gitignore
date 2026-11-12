@@ -1,0 +1,12 @@
+# Explicit path budget: generated dependencies and caches at every nesting level;
+# local checks only. No source, public runtime assets, lockfile, or dist/ is ignored.
+**/node_modules/
+**/.npm/
+**/.cache/
+**/.vite/
+**/.vite-temp/
+**/coverage/
+**/playwright-report/
+**/test-results/
+/test/scratch/
+*.tsbuildinfo
